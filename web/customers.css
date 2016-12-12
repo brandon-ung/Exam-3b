@@ -1,0 +1,43 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td:hover{background-color: #CCCCCC}
+
+tr:nth-child(odd){background-color: #EDEDED}
+
+body{
+}
+
+p {text-align: center;}
+
+#buttons {
+    margin: auto 0;
+    text-align: center;
+    padding-top: 5px;
+}
+
+div{margin: auto 0;
+    text-align: center;
+    padding-top: 5px;
+}
+
+th {
+    height: 30px;
+}
+
+td {
+    text-align: center;
+    vertical-align: middle;
+    height: 20px;
+    padding: 5px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+
+h1{
+    text-align: center;
+}
