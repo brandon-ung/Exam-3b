@@ -8,10 +8,21 @@
         <title>Customer Database</title>
     </head>
     <body>
+        
+        <div class="wrap">
+            
+            <%@ include file="includes/header.jsp" %>
+            
+            <%@ include file="includes/menu.jsp" %>
+            
         <h1>Customer Database</h1>
         
         <div>
         <a href="read"> View Customer Database </a>
         </div>
+        
+            
+            <%@ include file="includes/footer.jsp" %>
+    
     </body>
 </html>
